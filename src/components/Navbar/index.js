@@ -5,8 +5,8 @@ function index() {
         <>
         <Nav>
             <NavLink to='/'>
-                {/* <img src={require('../../../public/images/logo.svg')} alt='logo'></img> */}
-                <h1>Logo</h1>
+                {/* <img src={require('../../images/logo.svg')} alt='' /> */}
+                Logo
             </NavLink>
             <Bars />
             <NavMenu>
@@ -22,7 +22,11 @@ function index() {
                 <NavLink to='/signup' activeStyle>
                     Sign Up
                 </NavLink>
+                {/* <NavBtnLink to='/signin'>
+                    Sign In
+                </NavBtnLink> */}
             </NavMenu>
+           
             <NavBtn>
                 <NavBtnLink to='/signin'>
                     Sign In
